@@ -1,0 +1,11 @@
+<nav>
+  <ul class="nav ">
+    <li>
+      <a href="{{site.baseurl}}/index/" class="{% if page.url contains 'index.html' %}current{% endif %}">Home</a>
+    </li>
+    <li>
+      <a href="{{site.baseurl}}/first/">First</a>
+    </li>
+    <li>{{page.url}}</li>
+  </ul>
+</nav>

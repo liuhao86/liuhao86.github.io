@@ -1,0 +1,42 @@
+# Site settings
+name: More Than Java
+email: liuhao.86@foxmail.com
+author: Howard Liu
+url: http://liuhao86.github.io
+resume_site: http://liuhao86.github.io
+github: https://github.com/liuhao86/
+baseurl: "/"
+description: Java, and More than It.
+meta_description: The Way of the Future.
+motto: It's our wits that make us men.
+banner: learing and learing, I will be happy.
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: liuhao86
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+gems: [jekyll-paginate, jekyll-gist]
+
+baidu_analysis: 80ad9f91a7c35d83585bd396459451cf
+
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : luoyan35714
+    disqus :
+        short_name : freudkang
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light

@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<p>Liuhaoi</p>
+
+<ul>
+  {% for post in site.categories.learn limit:2 %}
+    <li>
+      <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+      <p>{{post.meta}}</p>
+    </li>
+  {% endfor %}
+</ul>
+
+<ul>
+  {% for post in site.posts limit:2 %}
+    <li>
+      <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+      <p>{{post.meta}}</p>
+    </li>
+  {% endfor %}
+</ul>
+
+<ul>
+  {% for post in site.pages limit:2 %}
+    <li>
+      <a href="{{site.baseurl}}{{post.url}}">{{post.path}}</a>
+      <p>{{post.content}}</p>
+    </li>
+  {% endfor %}
+</ul>
