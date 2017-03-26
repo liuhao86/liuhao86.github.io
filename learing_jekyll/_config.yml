@@ -1,7 +1,0 @@
-markdown: kramdown
-baseurl: /
-exclude: ['README.md']
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-permalink: pretty

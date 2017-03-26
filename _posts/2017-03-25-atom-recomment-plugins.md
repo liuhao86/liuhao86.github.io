@@ -13,17 +13,17 @@ tag:
 {:toc}
 
 ### Markdown
-language-markdown
-markdown-table-formatter
-`markdown-scroll-sync` 预览markdown时提供同步滚动
+- language-markdown
+- markdown-table-formatter
+- `markdown-scroll-sync` 预览markdown时提供同步滚动
 
 ### 增强
-`language-nginx` 编辑Nginx配置文件, 提供语法高亮
-`platformio-ide-terminal` Mac郑重推荐, 当前`Terminal Plus`无法使用
-project-manager
+- `language-nginx` 编辑Nginx配置文件, 提供语法高亮
+- `platformio-ide-terminal` Mac郑重推荐, 当前`Terminal Plus`无法使用
+- project-manager
 
 ### 格式化
-atom-beautify
-jsformat
-pretty-json
-xml-formatter
+- atom-beautify
+- jsformat
+- pretty-json
+- xml-formatter
