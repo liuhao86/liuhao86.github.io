@@ -1,3 +1,12 @@
+---
+layout: post
+title: 个人画像
+permalink: /protrait/
+---
+
+* content
+{:toc}
+
 
 ### 致谢
 

@@ -3,15 +3,11 @@ name: More Than Java
 email: liuhao.86@foxmail.com
 author: Howard Liu
 url: http://liuhao86.github.io
-resume_site: http://liuhao86.github.io
 github: https://github.com/liuhao86/
+stackoverflow: http://stackoverflow.com/users/6126931/liu-hao
 baseurl: "https://liuhao86.github.io"
 description: Java, and More than It.
-meta_description: The Way of the Future.
-motto: It's our wits that make us men.
-banner: learing and learing, I will be happy.
 
-#permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
 paginate: 10
 
