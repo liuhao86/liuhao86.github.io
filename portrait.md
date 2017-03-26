@@ -49,4 +49,7 @@ permalink: /protrait/
 
 以上就是我对我自己的画像, 哦哦, 还缺少一点, 那就是`Beauties`, 但是呢, 我已经名花有主了. 加油! 少年, 不要成为`Beast`.
 
+
+我的网站[http://synchronized.space/](http://synchronized.space/)(其实还是github pages这里啦...)
+
 我的[StackOverFlow](http://stackoverflow.com/users/6126931/liu-hao): http://stackoverflow.com/users/6126931/liu-hao
