@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Atom插件列表"
-date:   2016-01-25 12:12:47 +0800
+date:   2017-03-25 12:12:47 +0800
 categories:
   - 记录
 tag:

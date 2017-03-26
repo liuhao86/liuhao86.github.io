@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "在线调整Redis设置"
-date:   2015-06-13 16:04:32 +0800
+date:   2016-06-13 16:04:32 +0800
 categories:
   - Ops
 tags:

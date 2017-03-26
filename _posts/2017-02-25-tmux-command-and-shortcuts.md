@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tmux常用指令"
-date:   2015-11-25 10:20:19 +0800
+date:   2016-02-25 10:20:19 +0800
 categories:
   - Ops
 tags:
