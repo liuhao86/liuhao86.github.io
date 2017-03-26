@@ -2740,9 +2740,9 @@ input[type="button"].btn-block {
   height: 0;
   margin-left: 2px;
   vertical-align: middle;
-  border-top: 4px solid #000000;
-  border-right: 4px solid transparent;
-  border-left: 4px solid transparent;
+  border-top: 8px solid #000000;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
   border-bottom: 0 dotted;
 }
 .dropdown {
@@ -3613,7 +3613,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   padding: 20px 15px;
-  font-size: 34px;
+  font-size: 28px;
   line-height: 20px;
 }
 .navbar-brand:hover,
@@ -6419,13 +6419,13 @@ hr {
   margin: 0 -15px;
   border: none;
   border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  margin-top: 18px;
 }
 .docs-content .container-fluid {
   padding: 0;
-}
-.docs-content {
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 .docs-section + .docs-section {
   padding-top: 40px;
@@ -6451,14 +6451,14 @@ hr {
   display: block;
   color: #36556e;
   padding: 5px 20px;
-  font-size:18px;
+  font-size:14px;
 }
 .sidebar .nav > li > a:hover,
 .sidebar .nav > li > a:focus {
   text-decoration: none;
   background-color: #e8ebee;
   border-right: 1px solid #d8dde2;
-  font-size: 19px
+  font-size: 16px
 }
 .sidebar .nav > .active > a,
 .sidebar .nav > .active:hover > a,
@@ -6519,7 +6519,7 @@ hr {
 }
 .docs-nav .navbar-collapse {
   border-color: #111f36;
-  font-size:20px;
+  font-size:18px;
 }
 .docs-nav .container .navbar-brand {
   margin: 12px 0 0;
