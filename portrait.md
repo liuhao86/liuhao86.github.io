@@ -37,7 +37,7 @@ permalink: /protrait/
 
 `TCPCopy`,`TCPReplay`,`JProfiler`,`JDWP`
 
-`Python`, `awk`, `lsof`, `cgroup`
+`Python`, `awk`, `lsof`, `cgroup`, `SDKMAN!`
 
 `markdown`, `Jekyll`, `Wordpress`, `RSS`
 
@@ -54,6 +54,8 @@ permalink: /protrait/
 以上就是我对我自己的画像, 哦哦, 还缺少一点, 那就是`Beauties`, 但是呢, 我已经名花有主了. 加油! 少年, 不要成为`Beast`.
 
 
-我的网站[http://synchronized.space/](http://synchronized.space/)(其实还是github pages这里啦...)
+我的网站[http://synchronized.space/](http://synchronized.space/)(其实还是[github pages](https://liuhao86.github.io)这里啦...)
 
 我的[StackOverFlow](http://stackoverflow.com/users/6126931/liu-hao): http://stackoverflow.com/users/6126931/liu-hao
+
+额, 今天[2017-03-28 15:49:15 +0800]遇到一个问题, 我要建立我的package名, 自然就是`space.synchronized.*`, 但是`synchronized`是Java的关键字...纠结了, 换个包名吧
