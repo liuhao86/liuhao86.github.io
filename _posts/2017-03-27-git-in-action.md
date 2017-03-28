@@ -8,6 +8,8 @@ tag:
   - git
 ---
 
+* content
+{:toc}
 
 #### 将已经提交的文件, 从Git中删除
 ``` sh

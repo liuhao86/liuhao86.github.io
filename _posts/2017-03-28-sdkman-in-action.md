@@ -9,6 +9,8 @@ tag:
 
 ---
 
+* content
+{:toc}
 
 #### 安装SDKMAN!
 

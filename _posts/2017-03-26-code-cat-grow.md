@@ -7,6 +7,9 @@ categories:
 tag:
 ---
 
+* content
+{:toc}
+
 最近看到了陈皓的一篇文章 [技术人员的发展之路](http://coolshell.cn/articles/17583.html "技术人员的发展之路"), 也想到自己身边的同事, 远方的大牛...
 
 >很多老掉牙的论调, 只有自己碰到的时候, 才能体会什么叫NAIVE.
