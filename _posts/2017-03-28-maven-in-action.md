@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "SDKMan实践笔记"
+title:  "Maven知识点备忘"
 date:   2017-03-28 16:16:40 +0800
 categories:
   - Java

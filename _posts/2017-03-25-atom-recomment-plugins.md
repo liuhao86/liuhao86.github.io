@@ -21,6 +21,7 @@ tag:
 - `language-nginx` 编辑Nginx配置文件, 提供语法高亮
 - `platformio-ide-terminal` Mac郑重推荐, 当前`Terminal Plus`无法使用
 - project-manager
+- `date`快捷插入当前时间, 我设置的datetime格式是`YYYY-MM-DD HH24:MI:SS +0800`, 方便在Jekyll里面写东西
 
 ### 格式化
 - atom-beautify
