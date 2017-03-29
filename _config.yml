@@ -22,7 +22,8 @@ kramdown:
   syntax_highlighter: rouge
 gems: [jekyll-paginate, jekyll-gist]
 
-baidu_analysis: 80ad9f91a7c35d83585bd396459451cf
+#baidu_analysis: 80ad9f91a7c35d83585bd396459451cf
+baidu_analysis: 14bcd533ac6a0b38be4ee57a044b5a8d
 
 FB:
   comments :

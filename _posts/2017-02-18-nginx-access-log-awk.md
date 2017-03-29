@@ -30,3 +30,9 @@ tail -100000 access.log |grep version/upesn/esn |awk '{if($10>0.8) printf "%s %s
 ``` sh
 tail -100000 access.log |grep version/upesn/esn |awk '{print $10}'|sort|uniq -c
 ```
+
+
+#### 查找多个文件中存在的字符串
+``` sh
+grep --exclude=*.o -rnw '/path/to/somewhere/' -e "pattern"
+```

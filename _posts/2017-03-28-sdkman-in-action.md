@@ -52,7 +52,7 @@ sdk default java 8u121
 sdk d java 8u121
 ```
 
-#### 卸载环境```
+#### 卸载环境
 ``` sh
 sdk uninstall java
 sdk rm java
