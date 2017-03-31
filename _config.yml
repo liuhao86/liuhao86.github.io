@@ -8,7 +8,7 @@ stackoverflow: http://stackoverflow.com/users/6126931/liu-hao
 baseurl: "https://liuhao86.github.io"
 description: Java, and More than It.
 
-permalink: /:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title.html
 paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
