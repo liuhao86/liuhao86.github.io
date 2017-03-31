@@ -37,7 +37,7 @@ permalink: /protrait/
 
 `TCPCopy`,`TCPReplay`,`JProfiler`,`JDWP`
 
-`Python`, `awk`, `lsof`, `cgroup`, `SDKMAN!`
+`Python`, `awk`, `lsof`, `cgroup`, `SDKMAN!`, `tcpdump`
 
 `markdown`, `Jekyll`, `Wordpress`, `RSS`
 
