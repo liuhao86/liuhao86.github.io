@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Java Maps"
-date:   2017-03-28 10:24:47 +0800
+date:   2017-03-29 10:24:47 +0800
 categories:
   - Java
 tag:
@@ -51,4 +51,4 @@ new HashMap(initCapacity);
 
 如果声明为`new HashMap((int)(768*1f/0.75+1f))`, 1025,capacity为2048, 有效率为37.5%;
 
-所以对基本不变化的Map来说, loadFactor为1
+所以对基本不变化的Map来说, loadFactor为1是个不错的选择.
