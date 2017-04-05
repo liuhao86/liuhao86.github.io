@@ -78,15 +78,16 @@ hw-time      system-time         freq-offset-ppm   tick
 ```
 
 ### ⌘ 可能遇到的问题
-1. 每次使用adjtimex设置tick为10000后, 会被调整为9167
-`ntpdate`旧版有问题,并参考下面的**问题2**中的chronyd.
+1. 每次使用adjtimex设置tick为10000后, 一段时间后,被调整为非10000的值
 
-    推荐升级ntpdate:
+    首先, 推荐升级ntpdate:
     ``` sh
     yum install ntp && yum update ntp
     ```
 
     或者使用`sntp -sS`或者使用`ntpd -gqd`,参见[Deprecating ntpdate](http://support.ntp.org/bin/view/Dev/DeprecatingNtpdate),
+
+    还有一种可能是同时使用了`ntpdate`+`crontab`,并且开启了`chronyd`+`ntp`
 
 2. ntpd服务看起来没有启动
     使用`systemctl status ntpd`查看服务状态时,发现服务并没有启动,`crontab`中也没有配置,ntpd是如何提供服务的呢.
