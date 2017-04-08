@@ -15,3 +15,15 @@ tag:
 ``` sh
 git rm [-r] --cached 文件[夹]路径
 ```
+
+#### 配置autocrlf统一换行符
+``` sh
+# windows
+git config --global core.autocrlf true
+
+# Mac/Linux
+git config --global core.autocrlf input
+```
+这样在windows迁出时自动替换为CRLF, 提交时自动替换为LF
+
+在Mac/Linux等Unix系统上, 迁出时保持原样, 提交时将CRLF自动替换为LF
