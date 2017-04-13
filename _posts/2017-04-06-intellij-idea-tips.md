@@ -24,3 +24,9 @@ tag:
 * `option command B` impletations
 * `Commnad + U` super
 * `option + F7` find Usage
+
+### 注意事项
+* `command + ;`打开项目设置
+* `command + ,`打开偏好设置, 注意
+    1. `Version Control`中如果有项目在没有跟踪的状态, 是不会检测到代码更新的
+    2. `Build, Execution, Deployment` -> `Maven` -> `ignore Files`这里被忽略的模块是不会在projects里面看到的, 也无法import回来
