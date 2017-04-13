@@ -13,6 +13,19 @@ tag:
 * content
 {:toc}
 
+
+### 简介
+maven-release-plugin是一个自动将Maven项目的SNAPSHOT版本变更为RELEASE版本的工具插件.
+
+不使用该插件时, 原有的步骤为:
+1. 迁出新的分支或Tag
+2. 更改所有依赖的SNAPSHOT为RELEASE
+3. 更改自身的SNAPSHOT为RELEASE
+4. 提交到SCM
+5. 构建并部署到Nexus私服
+6. 切换回develop分支
+6. 在原SNAPSHOT基础上, 升级SNAPSHOT版本
+
 ### 优点
 1. 自动替换pom文件中的SNAPSHOT依赖到release依赖
 2. 自动Tag, 并且推送到远程SCM, 不需要新建本地分支
@@ -23,6 +36,7 @@ tag:
 1. `mvn javadoc:javadoc`能够成功执行
 2. 本地所有更改已经commit
 3. pom文件中有scm的配置, 如下
+
 ``` xml
   <scm><connection>scm:git:https://github.com/liuhao86/liuhao86.github.io.git</connection></scm>
 ```
