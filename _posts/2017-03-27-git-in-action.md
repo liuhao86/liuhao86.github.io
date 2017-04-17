@@ -27,3 +27,21 @@ git config --global core.autocrlf input
 这样在windows迁出时自动替换为CRLF, 提交时自动替换为LF
 
 在Mac/Linux等Unix系统上, 迁出时保持原样, 提交时将CRLF自动替换为LF
+
+#### 统一的.gitignore文件
+
+通过变量`core.excludesFile`控制机器下git配置, 等同于`~/.gitconfig`下配置
+
+``` config
+[core]
+	excludesFile = ~/.config/git/ignore
+```
+
+git官方的说明:
+>Specifies the pathname to the file that contains patterns to describe paths that are not meant to be tracked, in addition to .gitignore (per-directory) and .git/info/exclude. Defaults to $XDG_CONFIG_HOME/git/ignore. If $XDG_CONFIG_HOME is either not set or empty, $HOME/.config/git/ignore is used instead. See gitignore(5).
+
+
+##### 将当前目录下的`.gitignore`批量复制到当前目录下多个子文件夹
+``` sh
+for dir in $('ls');do cp -vf .gitignore $dir;done
+```
