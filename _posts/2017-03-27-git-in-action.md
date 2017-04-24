@@ -45,3 +45,11 @@ git官方的说明:
 ``` sh
 for dir in $('ls');do cp -vf .gitignore $dir;done
 ```
+
+##### 创建并推送Tag
+
+``` sh
+git tag -a V3.0 -m "提交说明" #创建tag
+git tag #查看tag列表
+git push --tags #推送tag到远程
+```

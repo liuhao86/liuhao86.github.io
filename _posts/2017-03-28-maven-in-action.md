@@ -33,3 +33,14 @@ tag:
 >It may be helpful to think of optional dependencies as "excluded by default."
 
 和scope区分起来, 问题主要在于scope没有提供一种关系, 能够表示我可能用到这个包, 但是概率不大的情况. 比较类似的是`provide`, 但是一个是依赖的范围, 一个是传递的范围
+
+#### 项目或者模块,不Install到本地,不Deploy到远程仓库
+
+配置属性:
+
+``` xml
+<properties>
+    <maven.deploy.skip>true</maven.deploy.skip>
+    <maven.install.skip>true</maven.install.skip>
+</properties>
+```
