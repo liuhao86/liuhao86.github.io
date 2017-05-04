@@ -45,6 +45,7 @@ git官方的说明:
 ``` sh
 for dir in $('ls');do cp -vf .gitignore $dir;done
 ```
+多个git仓库时, 需要统一更改时使用
 
 ##### 创建并推送Tag
 
