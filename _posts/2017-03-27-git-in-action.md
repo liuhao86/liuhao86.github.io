@@ -28,6 +28,11 @@ git config --global core.autocrlf input
 
 在Mac/Linux等Unix系统上, 迁出时保持原样, 提交时将CRLF自动替换为LF
 
+#### 中文文件名不显示为八进制
+``` sh
+git config --global core.quotepath false
+```
+
 #### 统一的.gitignore文件
 
 通过变量`core.excludesFile`控制机器下git配置, 等同于`~/.gitconfig`下配置
@@ -53,4 +58,10 @@ for dir in $('ls');do cp -vf .gitignore $dir;done
 git tag -a V3.0 -m "提交说明" #创建tag
 git tag #查看tag列表
 git push --tags #推送tag到远程
+```
+
+##### 撤销提交
+``` sh
+git reset –hard commit_hash
+git push origin HEAD –force
 ```

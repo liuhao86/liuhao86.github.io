@@ -30,3 +30,7 @@ tag:
 * `command + ,`打开偏好设置, 注意
     1. `Version Control`中如果有项目在没有跟踪的状态, 是不会检测到代码更新的
     2. `Build, Execution, Deployment` -> `Maven` -> `ignore Files`这里被忽略的模块是不会在projects里面看到的, 也无法import回来
+
+### 亮点
+* Help -> Productivity Guide
+* File -> Setting Repository 同步本地配置到远程仓库, 我用的是github, PyCharm也放进去了, 不过不能同一个库,否则会出问题

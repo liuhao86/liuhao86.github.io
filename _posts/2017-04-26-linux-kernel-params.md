@@ -21,3 +21,10 @@ net.ipv6.conf.all.disable_ipv6=1
 net.ipv6.conf.default.disable_ipv6 = 1
 net.ipv6.conf.eth0.disable_ipv6 = 1 #eth0为网卡
 ```
+
+2. TCP time_wait时间
+```
+net.ipv4.tcp_fin_timeout = 30
+```
+
+3.
