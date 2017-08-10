@@ -65,3 +65,11 @@ git push --tags #推送tag到远程
 git reset –hard commit_hash
 git push origin HEAD –force
 ```
+
+##### 不同的仓库不同密钥对
+通过.ssh/cofig配置
+```
+  Host github.com
+  User username_your
+  IdentityFile ~/.ssh/id_rsa_git_001
+```
