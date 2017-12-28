@@ -73,3 +73,16 @@ git push origin HEAD –force
   User username_your
   IdentityFile ~/.ssh/id_rsa_git_001
 ```
+
+##### 合并分支推荐流程
+合并 develop 到 环境对应分支
+``` sh
+git checkout develop
+git pull --rebase
+git status
+git add -A
+git commit -am ""
+git rebase env/integration develop
+git checkout env/integration
+git merge develop
+```

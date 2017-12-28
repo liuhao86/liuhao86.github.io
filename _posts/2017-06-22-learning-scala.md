@@ -36,3 +36,16 @@ gcd great common divitor 最大公因子
 
 tail recursion 尾递归 could avoid statckoverflow
 factorial
+unary_
+
+import ._
+import .{,}
+
+assert require
+
+trait abstrct class   class Quare extends Sharp with Planar with Movable
+
+Any AnyVal AnyDef Unit
+Null Nothing extends AnyDef not AnyVal
+
+Nil 

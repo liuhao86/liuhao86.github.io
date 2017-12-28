@@ -44,3 +44,32 @@ tag:
     <maven.install.skip>true</maven.install.skip>
 </properties>
 ```
+
+#### 使用BOM管理版本
+``` xml
+<dependencyManagement>
+	<dependencies>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-framework-bom</artifactId>
+		<version>4.3.9.RELEASE</version>
+		<type>pom</type>
+		<scope>import</scope>
+	</dependency>
+	</dependencies>
+</dependencyManagement>
+```
+
+
+``` xml
+<dependencies>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-web</artifactId>
+    </dependency>
+<dependencies>
+```
