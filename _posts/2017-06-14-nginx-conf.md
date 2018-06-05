@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "配置~/.mongorc.js"
+title:  "Nginx配置 stream ssl gzip"
 date:  2017-06-14 14:00:51 +0800
 categories:
   - Nginx
