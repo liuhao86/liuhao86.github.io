@@ -20,42 +20,33 @@ permalink: /protrait/
 
 热爱羽毛球, 喜爱自然风光, 喜爱`刷步数`, 喜爱银魂
 
-热爱架构, 热爱运维, 热爱Linux(桌面尤其热爱`OpenSUSE`)
+热爱架构, 热爱Linux(桌面尤其热爱`OpenSUSE`)
 喜欢自动化, 喜欢`WebHook`, 喜欢高权限
 
 另外在这里, 想对很多伟大的存在表白, 这些存在们真是太awesome了, 不管复杂或者简单, 不管庞大或者微小, 都挡不住我对它们的爱..., 列举如下:
 
 `CentOS`, `OpenSUSE`, `macOS`, `Docker`
 
-`Nginx`, `MongoDB`, `Cassandra`, `HBase`, `MySQL`, `Redis`, `ZooKeeper`, `Jetty`,
+`Nginx`, `Envoy`, `MongoDB`, `Redis`, `ZooKeeper`, `Undertower`,
 
-`Java`, `Jenkins`, `Git`, `GitLab`, `Maven`, `Nexus`, `Ansible`, `SonarQube`, `Eclipse`, `IntelliJ IDEA`, `Atom`
+`Java`, `Jenkins`, `Git`, `GitLab`, `Gradle`, `Nexus`, `Ansible`, `SonarQube`, `IntelliJ IDEA`, `VS Code`
 
-`Raft`, `Gossip`, `WebSocket`, `RSA`, `AES`
+`Raft`, `Gossip`, `WebSocket`, `RSA`, `AES`, `DFA`
 
-`Spring`,`Spring Boot`, `Dubbo`, `FastJSON`, `Druid`, `MyBatis`, `Netty`, `Commons`, `Guava`
+`Spring`,`Spring Boot`, `Netty`, `Async`, `Commons`, `Guava`, `REST`
 
 `TCPCopy`,`TCPReplay`,`JProfiler`,`JDWP`
 
 `Python`, `awk`, `lsof`, `cgroup`, `SDKMAN!`, `tcpdump`
 
-`markdown`, `Jekyll`, `Wordpress`, `RSS`
+`markdown`, `Jekyll`, `RSS`
 
-`BootStrap`, `font-awesome`, `jQuery`, `PJAX`
+`Reeder`, `Chrome`, `Tmux`, `Synergy`, `uTools`, `Alfred`
 
-`Reeder`, `Chrome`, `Tmux`, `Synergy`
+`Bandwagon`, `Vultr`, `stunnel`, `squid`, `V2ray`,`Proxy SwitchyOmega`
 
-`Bandwagon`, `Linode`, `stunnel`, `squid`, `ShadowsocksX`,`Proxy SwitchyOmega`
-
-`知乎`, `简书`, `Github`, `GitBook`, `Disqus`, `StackOverFlow`,`ProcessOn`,`百度脑图`, `ofo`
-
-`Flo`, `Weloop`, `米家`
+`知乎`, `简书`, `Github`, `GitBook`, `Disqus`, `StackOverFlow`, `ProcessOn`, `百度脑图`
 
 以上就是我对我自己的画像, 哦哦, 还缺少一点, 那就是`Beauties`, 但是呢, 我已经名花有主了. 加油! 少年, 不要成为`Beast`.
 
-
-我的网站[http://synchronized.space/](http://synchronized.space/)(其实还是[github pages](https://liuhao86.github.io)这里啦...)
-
 我的[StackOverFlow](http://stackoverflow.com/users/6126931/liu-hao): http://stackoverflow.com/users/6126931/liu-hao
-
-额, 今天[2017-03-28 15:49:15 +0800]遇到一个问题, 我要建立我的package名, 自然就是`space.synchronized.*`, 但是`synchronized`是Java的关键字...纠结了, 换个包名吧

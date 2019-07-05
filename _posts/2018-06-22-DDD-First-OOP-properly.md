@@ -56,7 +56,7 @@ tag:
 3. 不要滥用工具类和静态方法
 
 结构如下图，相对传统结构增加领域层：
-![Class Diagram 2](/resources/6.png)
+![Class Diagram 2](/resources/6.png){:height="50%" width="50%"}
 
 Service层和领域模型层对DAO层都有直接调用，如何进行分离，可以参考命令查询职责分离（CQRS）模式.
 
@@ -73,7 +73,7 @@ Spring本身并没有错，但我们需要放弃的使用方式。既能利用�
 
 举个例子，最近编写了一套灰度发布系统，核心逻辑是根据各种维度，判断是否需要提示客户升级到灰度包。维度包括租户、用户、部门、群组、发布比例、客户设备类型、版本等。实际类图比较复杂，核心逻辑简化如下：
 
-![Class Diagram 2](/resources/5.png)
+![Class Diagram 2](/resources/5.png){:height="50%" width="50%"}
 
 UpdateCheckController/ReleaseFactory/ReleaseFilterEngineFactory继续作为Bean由Spring管理，Release对象则由ReleaseFactory负责创建，创建时通过构造函数，传入Spring管理的Bean: ReleaseFilterEngineFactory和ReleaseDAO. 这样发布的逻辑集中由Release处理，包括版本对比，灰度发布过滤器也交给对应的类处理。
 
